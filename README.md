@@ -7,7 +7,7 @@ Steps:
 2. Setup a blank database or use default postgres
 3. Setup a new user or default admin (you should set a new user)
 4. Setup INI or it will autobuild an invalid ini for you on first load. **PASSWORD CHANGE MANDATORY**
-5. Put libpq.dll and pqxx-7.0.dll in your Everquest folder
+5. Put **libpq.dll** and **pqxx-7.0.dll** in your Everquest folder
 6. Load MQ2SpawnDB
 
 ## INI options
