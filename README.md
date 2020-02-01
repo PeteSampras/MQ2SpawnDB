@@ -81,7 +81,7 @@ pg_ctl.exe register -N "PostgreSQL" -U "NT AUTHORITY\NetworkService" -D "C:/Prog
 - [MQ2SpawnDB Roadmap Tracker][GLO_Board]
 
 ## Contact/Donations 
-- You can [email][email] me if you have questions and want to contribute. I am also in the MMOBugs discord.
+- You can [email][email] me if you have questions and want to contribute. I am also in the MMOBugs/RedGuides discord.
 - If you like the project and just want to [Donate][donate], that is always appreciated.
 
 [api]: https://github.com/PeteSampras/MQ2SpawnDB/blob/master/API_examples.md
