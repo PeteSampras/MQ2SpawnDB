@@ -71,6 +71,9 @@ If you want to automatically run Postgres each time your computer boots up you o
 pg_ctl.exe register -N "PostgreSQL" -U "NT AUTHORITY\NetworkService" -D "C:/Program Files/postgresql/pgsql/bin/pgsql/data" -w
 ```
 
+## API examples
+[API interface examples][api]
+
 ## Project Board:
 - [MQ2SpawnDB Roadmap Tracker][GLO_Board]
 
@@ -78,6 +81,7 @@ pg_ctl.exe register -N "PostgreSQL" -U "NT AUTHORITY\NetworkService" -D "C:/Prog
 - You can [email][email] me if you have questions and want to contribute. I am also in the MMOBugs discord.
 - If you like the project and just want to [Donate][donate], that is always appreciated.
 
+[api]: https://github.com/PeteSampras/MQ2SpawnDB/blob/master/API_examples.md
 [user]: https://www.youtube.com/watch?v=zzvloWiKsEc
 [pqxx]: https://github.com/jtv/libpqxx
 [download]: https://www.postgresql.org/download/
