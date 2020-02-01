@@ -23,14 +23,14 @@ PGPASSWORD	(your PostgreSQL password, if needed)
 
 ### server_character.ini
 You may also set your variables in your character's ini. the Password will cause plugin to fail loading if you do not change it.
-
+```
 [MQ2SpawnDB]
 DatabaseName=postgres
 Username=postgres
 Password=NULL
 HostIP=127.0.0.1
 HostPort=5432
-
+```
 
 ## Commands
 
@@ -44,7 +44,9 @@ All settings other than notes are simple "true" or "false" flags. /spawndb named
 
 ```
 These options are NOT case sensitive:
-"Named","Quest","Notes","Ignore","ImmuneCold","ImmuneDisease","ImmuneFire","ImmuneMez","ImmuneCharm","ImmunePoison","ImmuneSlow","ImmuneSnare","ImmunityCheck","Burn"
+"Named","Quest","Notes","Ignore","ImmuneCold","ImmuneDisease",
+"ImmuneFire","ImmuneMez","ImmuneCharm","ImmunePoison",
+"ImmuneSlow","ImmuneSnare","ImmunityCheck","Burn"
 ```
 
 # Setup
@@ -65,7 +67,8 @@ Setup is a little more complicated than a traditional plugin because this plugin
 
 ## PostgreSQL as a service
 If you want to automatically run Postgres each time your computer boots up you open command prompt/terminal and navigate to your Postgres bin directory and execute the following command (changing the directory to whatever your actual directory is):
-```pg_ctl.exe register -N "PostgreSQL" -U "NT AUTHORITY\NetworkService" -D "C:/Program Files/postgresql/pgsql/bin/pgsql/data" -w
+```
+pg_ctl.exe register -N "PostgreSQL" -U "NT AUTHORITY\NetworkService" -D "C:/Program Files/postgresql/pgsql/bin/pgsql/data" -w
 ```
 
 ## Project Board:
