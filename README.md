@@ -74,6 +74,9 @@ pg_ctl.exe register -N "PostgreSQL" -U "NT AUTHORITY\NetworkService" -D "C:/Prog
 ## API examples
 [API interface examples][api]
 
+## Macro and TLO examples
+[Macro and TLO examples][macros]
+
 ## Project Board:
 - [MQ2SpawnDB Roadmap Tracker][GLO_Board]
 
@@ -82,6 +85,7 @@ pg_ctl.exe register -N "PostgreSQL" -U "NT AUTHORITY\NetworkService" -D "C:/Prog
 - If you like the project and just want to [Donate][donate], that is always appreciated.
 
 [api]: https://github.com/PeteSampras/MQ2SpawnDB/blob/master/API_examples.md
+[macros]: https://github.com/PeteSampras/MQ2SpawnDB/blob/master/macro_%26_TLO_examples.md
 [user]: https://www.youtube.com/watch?v=zzvloWiKsEc
 [pqxx]: https://github.com/jtv/libpqxx
 [download]: https://www.postgresql.org/download/
