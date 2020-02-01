@@ -72,6 +72,10 @@ PLUGIN_API bool isImmuneSlow(PCHAR name)
 {
 	return (CheckvMaster(name, immuneSLOW));
 }
+PLUGIN_API bool isImmuneStun(PCHAR name)
+{
+	return (CheckvMaster(name, immuneSTUN));
+}
 PLUGIN_API bool isImmuneMez(PCHAR name)
 {
 	return (CheckvMaster(name, immuneMEZ));
@@ -95,6 +99,10 @@ PLUGIN_API bool isImmunePoison(PCHAR name)
 PLUGIN_API bool isImmuneDisease(PCHAR name)
 {
 	return (CheckvMaster(name, immuneDISEASE));
+}
+PLUGIN_API bool isImmuneMagic(PCHAR name)
+{
+	return (CheckvMaster(name, immuneMAGIC));
 }
 PLUGIN_API bool Burn(PCHAR name)
 {
