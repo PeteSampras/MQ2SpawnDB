@@ -57,13 +57,13 @@ Setup is a little more complicated than a traditional plugin because this plugin
 **pqxx-7.0.dll** This dll can be built manually from ([pqxx][pqxx]) or you can just use the posted version.
 
 ## PostgreSQL installation
--[Download][download] the appropriate version of PostgreSQL from  (64bit and 32bit version 10 and higher work).
--Install Postgres: ([Video tutorial][tutorial])
--Free online Postgres Sandbox: [PGAdmin panel][try]
+- [Download][download] the appropriate version of PostgreSQL from  (64bit and 32bit version 10 and higher work).
+- Install Postgres: ([Video tutorial][tutorial])
+- Free online Postgres Sandbox: [PGAdmin panel][try]
 
 ## Create a database/user/password
--[Create database][tutorial] using the same install tutorial listed above.
--[Create user][user]
+- [Create database][tutorial] using the same install tutorial listed above.
+- [Create user][user]
 
 ## PostgreSQL as a service
 If you want to automatically run Postgres each time your computer boots up you open command prompt/terminal and navigate to your Postgres bin directory and execute the following command (changing the directory to whatever your actual directory is):
