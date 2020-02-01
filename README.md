@@ -45,8 +45,8 @@ All settings other than notes are simple "true" or "false" flags. /spawndb named
 ```
 These options are NOT case sensitive:
 "Named","Quest","Notes","Ignore","ImmuneCold","ImmuneDisease",
-"ImmuneFire","ImmuneMez","ImmuneCharm","ImmunePoison",
-"ImmuneSlow","ImmuneSnare","ImmunityCheck","Burn"
+"ImmuneFire","ImmuneMez","ImmuneCharm","ImmunePoison", "ImmuneMagic", 
+"ImmuneStun","ImmuneSlow","ImmuneSnare","ImmunityCheck","Burn"
 ```
 
 # Setup
