@@ -53,8 +53,8 @@ These options are NOT case sensitive:
 Setup is a little more complicated than a traditional plugin because this plugins requires you to install PostgreSQL, create a database, and add dynamic link libraries (.dll) to your EverQuest folder.
 
 ## DLLs (these go in EverQuest folder)
-**libpq.dll** The libpq.dll is a PostgresSQL file that is available in your own local PostgreSQL lib folder. You can use the posted copy or use your own.
-**pqxx-7.0.dll** This dll can be built manually from ([pqxx][pqxx]) or you can just use the posted version.
+ - **libpq.dll** The libpq.dll is a PostgresSQL file that is available in your own local PostgreSQL lib folder. You can use the posted copy or use your own.
+ - **pqxx-7.0.dll** This dll can be built manually from ([pqxx][pqxx]) or you can just use the posted version.
 
 ## PostgreSQL installation
 - [Download][download] the appropriate version of PostgreSQL from  (64bit and 32bit version 10 and higher work).
