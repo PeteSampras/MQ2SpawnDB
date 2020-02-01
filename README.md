@@ -1,6 +1,6 @@
 # MQ2SpawnDB - A Macroquest Plugin
 
-This is the MQ2SpawnDB plugin for macroquest2. This plugin is designed to be used to interface with a PostgreSQL database. The plugin will automatically log all observed unique spawns by DisplayName into the database and take a best guess if it is a named, quest related,  and if you should burn available skills. You can log spell immunities, ignore mobs entirely, add notes, or note spell resistances/immunities. This capabilities mimics what other macros/plugins have accomplished with INIs but instead uses a PostgreSQL database to allow multiple users to simultaenously access and write data locally or remotely.
+This is the MQ2SpawnDB plugin for macroquest2. This plugin is designed to be used to interface with a PostgreSQL database. The plugin will automatically log all observed unique spawns by DisplayName into the database and take a best guess if it is a named, quest related,  and if you should burn available skills. You can log spell immunities, ignore mobs entirely, add notes, or note spell resistances/immunities. This capabilities mimics what other macros/plugins have accomplished with INIs but instead uses a PostgreSQL database to allow multiple users to simultaneously access and write data locally or remotely.
 
 Steps:
 1. Install PostgreSQL/pgAdmin (remember your password and if you use any custom host or ports)
