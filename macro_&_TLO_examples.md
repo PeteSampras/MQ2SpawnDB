@@ -56,8 +56,7 @@ Spawns are stored by Target.DisplayName in the database. So always reference the
   ImmuneMagic
 ```
 
-
-**Integers: **
+**Integers:**
 ```
   Size - how many unique npcs do i know about this zone
   MinLevel - what is the minimum level I have seen this npc
