@@ -4,7 +4,7 @@ Accessing the API is fairly straight forward. You just create a function to call
 ## Example API connection function
 ```CPP
 bool DBConnected() {
-	typedef WORD(__cdecl *fIsDBConnected)(VOID);
+	using fIsDBConnected = WORD(*)();
 	PMQPLUGIN pLook = pPlugins;
 	while (pLook && _strnicmp(pLook->szFilename, "mq2spawndb", 8)) pLook = pLook->pNext;
 	if (pLook)
